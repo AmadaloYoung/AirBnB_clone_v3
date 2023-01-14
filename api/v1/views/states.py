@@ -70,4 +70,4 @@ def get_json(request):
         data = request.get_json()
     except Exception:
         data = None
-    return data
+    return data 
